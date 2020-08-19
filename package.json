@@ -1,0 +1,10 @@
+{
+  "name": "turner-ui-react",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "semantic-ui-react": "^1.2.0",
+    "turner-semantic-ui-css": "^0.0.9"
+  },
+  "description": "Wrapper around semantic-ui-react with custom defaults, components, and hooks for Turner Web development."
+}
