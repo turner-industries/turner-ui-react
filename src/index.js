@@ -1,4 +1,3 @@
-import "turner-semantic-ui-css/dist/semantic.min.css";
 
 export { Ref } from "semantic-ui-react";
 export { Confirm } from "semantic-ui-react";
