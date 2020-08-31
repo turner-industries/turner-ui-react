@@ -1,3 +1,6 @@
+// Custom Component Styles
+import './components/index.css'
+
 // Custom Components
 export {Table} from './components/Table';
 

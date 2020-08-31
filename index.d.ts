@@ -1,3 +1,11 @@
+// Custom Components
+import {
+  TableProps as SemanticTableProps,
+  StrictTableProps,
+} from 'semantic-ui-react';
+type TableProps = SemanticTableProps & {sticky: boolean};
+export {TableProps, StrictTableProps};
+
 // Custom Hooks
 export type UseDebounce = (fn: () => void, ms?: number, args?: any[]) => void;
 
@@ -198,14 +206,6 @@ export {
   MessageListProps,
   StrictMessageListProps,
 } from 'semantic-ui-react';
-
-import {
-  TableProps as SemanticTableProps,
-  StrictTableProps,
-} from 'semantic-ui-react';
-type TableProps = SemanticTableProps & {sticky: boolean};
-import {Table} from './src/components/Table';
-export {Table, TableProps, StrictTableProps};
 
 export {
   default as TableBody,

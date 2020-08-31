@@ -1,6 +1,14 @@
 import React from 'react';
-import {default as SemanticTable} from 'semantic-ui-react';
+import {Table as SemanticTable} from 'semantic-ui-react';
 
-export const Table = ({sticky = true, ...props}) => {
-  return <SemanticTable.Table className={sticky ? 'sticky' : ''} {...props} />;
+export const Table = props => {
+  return (
+    <SemanticTable 
+      className={props.noStickyHeader ? '' : 'sticky'} 
+      padded
+      singleLine
+      stacked
+      unstackable
+      {...props} 
+    />);
 };
