@@ -1,3 +1,6 @@
+// Custom Hooks
+export type UseDebounce = (fn: () => void, ms?: number, args?: any[]) => void;
+
 // Third party
 
 export {Ref, RefProps} from 'semantic-ui-react';

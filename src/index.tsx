@@ -2,6 +2,7 @@
 export {Table} from './components/Table';
 
 // Custom Hooks
+export {useDebounce} from './hooks/use-debounce';
 
 // Semantic Components
 export {Ref} from 'semantic-ui-react';
