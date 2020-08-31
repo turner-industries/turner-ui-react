@@ -4,6 +4,9 @@ export {Table} from './components/Table';
 // Custom Hooks
 export {useDebounce} from './hooks/use-debounce';
 
+// Custom Utilities
+export {getEmptyStringDropdownOption} from './utilities';
+
 // Semantic Components
 export {Ref} from 'semantic-ui-react';
 export {Confirm} from 'semantic-ui-react';

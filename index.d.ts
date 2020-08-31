@@ -1,8 +1,15 @@
 // Custom Hooks
 export type UseDebounce = (fn: () => void, ms?: number, args?: any[]) => void;
 
-// Third party
+// Custom Utilities
+export type DropdownOption<T> = {
+  value: T;
+  text: string;
+};
 
+export type GetEmptyStringDropdownOption = () => DropdownOption<string>;
+
+// Third party
 export {Ref, RefProps} from 'semantic-ui-react';
 
 // Addons
