@@ -3,7 +3,13 @@ import {
   TableProps as SemanticTableProps,
   StrictTableProps,
 } from 'semantic-ui-react';
-type TableProps = SemanticTableProps & {sticky: boolean};
+type TableProps = SemanticTableProps & {
+  noStickyHeader: boolean;
+  noPadded: boolean;
+  noSingleLine: boolean;
+  noStacked: boolean;
+  noUnstackable: boolean;
+};
 export {TableProps, StrictTableProps};
 
 // Custom Hooks
