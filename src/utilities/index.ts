@@ -1,4 +1,4 @@
-import {DropdownOption} from '../../index.d';
+import {DropdownOption} from '../types/index';
 
 export const getEmptyStringDropdownOption = (): DropdownOption<string> => ({
   text: '(none)',

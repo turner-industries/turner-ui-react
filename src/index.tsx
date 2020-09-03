@@ -1,14 +1,18 @@
 // Custom Component Styles
-import './components/index.css'
+import './components/index.css';
 
 // Custom Components
-export {Table} from './components/Table';
+export {Page} from './components/Page';
 
 // Custom Hooks
 export {useDebounce} from './hooks/use-debounce';
 
 // Custom Utilities
 export {getEmptyStringDropdownOption} from './utilities';
+
+// Semantic Types
+import {DropdownItemProps as SemanticDropdownItemProps} from 'semantic-ui-react';
+export type DropdownItemProps = SemanticDropdownItemProps;
 
 // Semantic Components
 export {Ref} from 'semantic-ui-react';
@@ -49,6 +53,7 @@ export {MessageContent} from 'semantic-ui-react';
 export {MessageHeader} from 'semantic-ui-react';
 export {MessageItem} from 'semantic-ui-react';
 export {MessageList} from 'semantic-ui-react';
+export {Table} from 'semantic-ui-react';
 export {TableBody} from 'semantic-ui-react';
 export {TableCell} from 'semantic-ui-react';
 export {TableFooter} from 'semantic-ui-react';
