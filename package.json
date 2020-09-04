@@ -1,6 +1,6 @@
 {
   "name": "turner-ui-react",
-  "version": "3.1.11",
+  "version": "3.1.12",
   "description": "Wrapper around semantic-ui-react with customized default-overrides, components, and hooks for Turner Web development.",
   "author": "jsMichot",
   "license": "MIT",
