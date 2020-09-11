@@ -1,8 +1,6 @@
-// Custom Component Styles
-import './components/index.css';
-
 // Custom Components
 export {Page} from './components/Page';
+export {Table} from './components/StickyTable';
 
 // Custom Hooks
 export {useDebounce} from './hooks/use-debounce';
@@ -53,7 +51,6 @@ export {MessageContent} from 'semantic-ui-react';
 export {MessageHeader} from 'semantic-ui-react';
 export {MessageItem} from 'semantic-ui-react';
 export {MessageList} from 'semantic-ui-react';
-export {Table} from 'semantic-ui-react';
 export {TableBody} from 'semantic-ui-react';
 export {TableCell} from 'semantic-ui-react';
 export {TableFooter} from 'semantic-ui-react';
